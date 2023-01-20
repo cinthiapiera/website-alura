@@ -314,3 +314,61 @@ La etiqueta thead, representa el encabezado de la tabla.
 La etiqueta tbody, representa el cuerpo de la tabla.
 La etiqueta th, representa la celda del encabezado de la tabla.
 La etiqueta tfoot, representa el pie de página de la tabla.
+
+¿Cuál es la diferencia entre usar una <div> o una <section>?
+Debemos usar la etiqueta <section> cuando el bloque es semántico
+Para un bloque donde el contenido tiene el mismo significado, el mismo sentido, usamos una <section>
+
+
+Al crear cualquier estilo, ¿Cuál es el mejor padrón para marcar nuestro contenido al crear una clase?
+Un balance es la mejor alternativa. No tan específico, para poder repetir o reutilizar las clases y no tan genérico, para que no tengas que necesitar combinar clases.
+
+¿Para qué sirve la propiedad float?
+Tanto el float:left como el float: right sirven para que el elemento se destaque en la pantalla, la superficie del elemento continúa siendo utilizada y los otros elementos de texto o elementos en línea se posicionan alrededor de él.
+
+A ajustar la página principal para utilizar los mismos padrones de la página de productos
+Medidas proporcionales con CSS
+Cómo funciona la propiedad float y cómo la podemos usar para que nuestros elementos floten sobre el lado que se indica.
+Como limpiar el float con la propiedad clear del CSS
+
+
+Analice los siguientes beneficios de usar fuentes externas:
+Usar fuentes externas es una alternativa muy funcional para que tengamos más opciones, que hacen que nuestro sitio web sea más bonito y exclusivo y además estandarizado en todos los navegadores.
+
+¿Para qué sirve la etiqueta iframe?
+Exactamente a través de la etiqueta iframe podemos insertar diferentes tipos de elementos externos en nuestra página. Sean estos mapas, vídeos, imágenes u otras páginas web o páginas de redes sociales.
+
+¿Cuáles de las siguientes sentencias son verdaderas en relación a la incorporación de vídeos externos en nuestra página?
+Es posible configurar el tiempo donde queremos que inicien los videos que insertamos en nuestras páginas. Por otro lado, a través de iframe es posible insertar varios tipos de elementos externos, entre ellos los videos son una alternativa viable.
+
+ejemplo:
+<ul class="lista-ingredientes">
+    <li class="items">6 huevos</li>
+    <li class="items">200 grs de tocino</li>
+    <li class="items">1/2 pimentón</li>
+    <li class="items">1 tomate</li>
+    <li class="items">1 cuchara de aceite</li>
+    <li class="items">150 grs de queso muzzarella</li>
+    <li class="items">Sal a gusto</li>
+</ul>
+
+6 huevos
+200 grs de tocino
+1/2 pimentón
+1 tomate
+1 cuchara de aceite
+150 grs de queso muzzarella
+Sal a gusto
+
+.items:first-child{font-style: italic}
+.items:nth-child(4){font-weight: bold}
+.items:last-child{font-style: italic}
+
+La sintaxis de las pseudo-clases están correctamente usadas y aplicando los estilos requeridos para colocar formato itálico en el primer y último ítem. Y pintar de negrito el cuarto ítem.
+
+¿Cómo hacer un degradado de 5 colores en un elemento?
+background: linear-gradient(gray, yellow, red, orange, blue)
+Usamos dentro del mismo paréntesis, separando los colores con comas.
+
+¿Cómo creo un pseudo-elemento usando CSS que anteceda a un elemento de HTML?
+Cuando queremos crear un elemento en la pagina, via CSS, antes del elemento de HTML, usamos la propiedad :before.
